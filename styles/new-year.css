@@ -1,4 +1,42 @@
-*{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
+.banner {
+  background-image: url(../images/banner/banner3.png);
+  background-color: #ffffff; /* Used if the image is unavailable */
+  height:680px;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position:top;
+}
+.banner-text {
+  margin-left: 700px;
+  color: #ffffff; /*text color*/
+  text-align: right;
+  padding:100px 8px ;
+}
+.banner-title {
+  font-size: 60px;
+  font-weight: 900;
+  font-family:cursive ;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.banner-description {
+  font-size: small;
+  margin-bottom: 15px;
+  padding-left:250px ;
+}
+
+.btn-primary {
+  background-color: white; /*Button Color*/
+  border: none; /*Button Border*/
+  color: #005fac; /*button text color */
+  font-size: 15px; /*Button Size*/
+  font-weight: 600;
+  border-radius: 8px; /*Rounded Button*/
+  width: 150px; /*Button Width*/
+  height: 50px; /*Button height*/
+}
+/* header end  */

@@ -40,3 +40,120 @@
   height: 50px; /*Button height*/
 }
 /* header end  */
+
+/* previous-year styles */
+.previous-year {
+  display: flex;
+  align-items: center;
+  margin: 100px 8px;
+  gap: 40px;
+}
+.previous-year-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.previous-year-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+  
+/* previous year end*/
+/*my plans*/
+.my-plans-section {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+   
+}
+.wnats-container {
+  display: flex;
+  justify-content: space-around;
+}
+.want {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.want-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.want-description{
+  color: #757575;
+  font-size: medium;
+
+}
+/* Positive mindset */
+.watch{
+  text-align: left;
+  margin: 100px 40px;
+  padding: 40px;
+  border-radius: 8px;
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
+  background-color: #ffffff; /* Used if the image is unavailable */
+  color: white;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.watch-title{
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: cursive;
+}
+/* footer styles */
+.footer {
+  display: flex;
+  gap: 300px;
+  background: black;
+  color: white;
+  padding: 130px 100px;
+}
+.section-title-future {
+  text-align: left;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: cursive;
+}
+.section-title-subscribe {
+  text-align: left;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-family: cursive;
+}
+.footer
+input[type="email"]
+{
+  background: black;
+  margin-right:400px;
+  margin-bottom: 24px;
+  border: 2px solid white; /*Colored Button Border*/
+  border-radius: 8px;
+  width: 50%;
+  padding: 18px 30px;
+}
+input {
+  height: 20px;
+}
+.footer a {
+  text-decoration: none;
+}
+.email, .phone{
+  font-size: small;
+  margin: 20px 0px;
+}
+.btn-subscribe {
+  background-color: #005fac; /*Button Color*/
+  border: none; /*Button Border*/
+  color: white; /*button text color */
+  font-size: 15px; /*Button Size*/
+  font-weight: 600;
+  border-radius: 8px; /*Rounded Button*/
+  width: 150px; /*Button Width*/
+  height: 50px; /*Button height*/
+}

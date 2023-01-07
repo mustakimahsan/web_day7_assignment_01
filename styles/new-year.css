@@ -58,6 +58,9 @@
   color: #757575;
   margin-bottom: 30px;
 }
+ul{
+  list-style-type: none;
+}
   
 /* previous year end*/
 /*my plans*/
